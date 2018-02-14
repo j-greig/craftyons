@@ -1,0 +1,14 @@
+{
+	"name": "j-greig/craftyonsfield",
+	"description": "Adds a Craftyons field (which loads Tachyons components as HTML) for prototyping",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "James Greig",
+			"homepage": "https://www.greig.cc"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

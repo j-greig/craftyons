@@ -1,0 +1,24 @@
+{#
+/**
+ * CraftyonsField plugin for Craft CMS
+ *
+ * CraftyonsField_CraftyonsFieldType HTML
+ *
+ * @author    James Greig
+ * @copyright Copyright (c) 2018 James Greig
+ * @link      https://www.greig.cc
+ * @package   CraftyonsField
+ * @since     0.1
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    id: id ~ 'someField',
+    class: 'nicetext',
+    name: name ~ '[someField]',
+    value: values.someField,
+    errors: values.getErrors('someField'),
+    required: false,
+}) }}
